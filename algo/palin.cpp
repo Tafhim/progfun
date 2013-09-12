@@ -17,8 +17,8 @@ bool DEBUGGING=false;
 bool pal[3000][3000]; // Substring[i..j] is a palindrome (or not)
 lint start[3000]; // NUmber of palindromes till i-th position from start
 lint end[3000];
-lint lft[3000];
-lint rgt[3000];
+lint lft[3000]; //Number of palindromes that start from 0 and end in i
+lint rgt[3000]; //Number of palindromes that start in i and end in len-1
 
 void palmark(string S) {
   int len = S.size();
