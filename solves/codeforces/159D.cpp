@@ -2,8 +2,6 @@
   This program gneerates a 
   table that tells if a segment
   of a string is a palindrome
-  The code is specially cooked
-  for Codeforces 159D
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #include <cstdio>
